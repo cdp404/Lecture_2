@@ -11,5 +11,6 @@ root1, root2 = get_root(1,5,6)
 print('r1값은',root1)
 print('r2값은',root2)
 
-root_1 = get_root(1,c=6,b=5)
-print(root_1)
+#TypeError: get_root() got multiple values for argument 'b'
+# root_1 = get_root(1,6,b=5)
+# print(root_1)
